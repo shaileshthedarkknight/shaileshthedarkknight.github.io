@@ -1,0 +1,421 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Tutorial</title>
+  </head>
+  <body>
+    <audio id="a1">
+      <source src="./audio/ambition.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="a2">
+      <source src="./audio/illusion.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="a3">
+      <source src="./audio/celebration.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="a4">
+      <source src="./audio/cushion.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="a5">
+      <source src="./audio/gullible.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="a6">
+      <source src="./audio/drawback.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="a7">
+      <source src="./audio/adhere.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="a8">
+      <source src="./audio/fearsome.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="a9">
+      <source src="./audio/frown.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="a10">
+      <source src="./audio/bout.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="a11">
+      <source src="./audio/dreadful.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="a12">
+      <source src="./audio/perennial.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="a13">
+      <source src="./audio/bleak.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="a14">
+      <source src="./audio/fleet.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="a15">
+      <source src="./audio/resign.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="a16">
+      <source src="./audio/decline.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="a17">
+      <source src="./audio/pragmatic.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="a18">
+      <source src="./audio/brevity.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="a19">
+      <source src="./audio/foolhardy.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="a20">
+      <source src="./audio/lucrative.mp3" type="audio/mpeg">
+    </audio>
+    <div class="container">
+      <img src="WORDOPEDIA.png" alt="WORDOPEDIA" class="imagecenter">
+      <div class="row">
+        <div class="col-sm-2">
+          <h3 style="font-size: 100%; text-align: center;"><b>Instructions</b></h3>
+          <div class="card_3">
+
+            <div class="instructions">
+              
+              
+              <p>Press the play button and listen carefully to the pronunciation.</p>
+              <p>Figure out which part of the words sound similar.</p>
+              <p>Try to note down the different words and mark the parts which sound the same.</p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-8">
+          <div class="card_2">
+            <div id="carouselExampleControls" class="carousel slide words" data-ride="carousel" data-interval="false">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="row">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-5">
+                      <h3 class="word1">Ambition</h3>
+                      <p><b>Meaning: </b>a strong desire to do or achieve something.</p>
+                      <div class="wrap">
+                        <button class="button" onclick="play1()">PLAY</button>
+                      </div>
+                    </div>
+                    <div class="col-sm-5">
+                      <h3 class="word2">Illusion</h3>
+                      <p><b>Meaning: </b>a false idea or belief.</p>
+                      <div class="wrap">
+                        <button class="button" onclick="play2()">PLAY</button>
+                      </div>
+                    </div>
+                    <div class="col-sm-1"></div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-5">
+                      <h3 class="word1">Celebration</h3>
+                      <p><b>Meaning: </b>a social gathering or enjoyable activity held to celebrate something.</p>
+                      <div class="wrap">
+                        <button class="button" onclick="play3()">PLAY</button>
+                      </div>
+                    </div>
+                    <div class="col-sm-5">
+                      <h3 class="word2">Cushion</h3>
+                      <p><b>Meaning: </b>a bag of cloth stuffed with a mass of soft material, used as a comfortable support for sitting or leaning on.</p>
+                      <div class="wrap">
+                        <button class="button" onclick="play4()">PLAY</button>
+                      </div>
+                    </div>
+                    <div class="col-sm-1"></div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-5">
+                      <h3 class="word1">Gullible</h3>
+                      <p><b>Meaning: </b>easily persuaded to believe something.</p>
+                      <div class="wrap">
+                        <button class="button" onclick="play5()">PLAY</button>
+                      </div>
+                    </div>
+                    <div class="col-sm-5">
+                      <h3 class="word2">Drawback</h3>
+                      <p><b>Meaning: </b>a feature that renders something less acceptable; a disadvantage or problem.</p>
+                      <div class="wrap">
+                        <button class="button" onclick="play6()">PLAY</button>
+                      </div>
+                    </div>
+                    <div class="col-sm-1"></div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-5">
+                      <h3 class="word1">Adhere</h3>
+                      <p><b>Meaning: </b>stick fast to (a surface or substance).</p>
+                      <div class="wrap">
+                        <button class="button" onclick="play7()">PLAY</button>
+                      </div>
+                    </div>
+                    <div class="col-sm-5">
+                      <h3 class="word2">Fearsome</h3>
+                      <p><b>Meaning: </b>frightening, especially in appearance.</p>
+                      <div class="wrap">
+                        <button class="button" onclick="play8()">PLAY</button>
+                      </div>
+                    </div>
+                    <div class="col-sm-1"></div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-5">
+                      <h3 class="word1">Frown</h3>
+                      <p><b>Meaning: </b>furrow one's brows in an expression indicating disapproval, displeasure, or concentration.</p>
+                      <div class="wrap">
+                        <button class="button" onclick="play9()">PLAY</button>
+                      </div>
+                    </div>
+                    <div class="col-sm-5">
+                      <h3 class="word2">Bout</h3>
+                      <p><b>Meaning: </b>a short period of intense activity of a specified kind.</p>
+                      <div class="wrap">
+                        <button class="button" onclick="play10()">PLAY</button>
+                      </div>
+                    </div>
+                    <div class="col-sm-1"></div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-5">
+                      <h3 class="word1">Dreadful</h3>
+                      <p><b>Meaning: </b>extremely bad or serious.</p>
+                      <div class="wrap">
+                        <button class="button" onclick="play11()">PLAY</button>
+                      </div>
+                    </div>
+                    <div class="col-sm-5">
+                      <h3 class="word2">Perennial</h3>
+                      <p><b>Meaning: </b>lasting or existing for a long or apparently infinite time.</p>
+                      <div class="wrap">
+                        <button class="button" onclick="play12()">PLAY</button>
+                      </div>
+                    </div>
+                    <div class="col-sm-1"></div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-5">
+                      <h3 class="word1">Bleak</h3>
+                      <p><b>Meaning: </b>(of a situation) unlikely to have a favourable outcome.</p>
+                      <div class="wrap">
+                        <button class="button" onclick="play13()">PLAY</button>
+                      </div>
+                    </div>
+                    <div class="col-sm-5">
+                      <h3 class="word2">Fleet</h3>
+                      <p><b>Meaning: </b>a group of ships sailing together, engaged in the same activity, or under the same ownership.</p>
+                      <div class="wrap">
+                        <button class="button" onclick="play14()">PLAY</button>
+                      </div>
+                    </div>
+                    <div class="col-sm-1"></div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-5">
+                      <h3 class="word1">Resign</h3>
+                      <p><b>Meaning: </b>voluntarily leave a job or office.</p>
+                      <div class="wrap">
+                        <button class="button" onclick="play15()">PLAY</button>
+                      </div>
+                    </div>
+                    <div class="col-sm-5">
+                      <h3 class="word2">Decline</h3>
+                      <p><b>Meaning: </b>become smaller, fewer, or less; decrease.</p>
+                      <div class="wrap">
+                        <button class="button" onclick="play16()">PLAY</button>
+                      </div>
+                    </div>
+                    <div class="col-sm-1"></div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-5">
+                      <h3 class="word1">Pragmatic</h3>
+                      <p><b>Meaning: </b>dealing with things sensibly and realistically in a way that is based on practical rather than theoretical considerations.</p>
+                      <div class="wrap">
+                        <button class="button" onclick="play17()">PLAY</button>
+                      </div>
+                    </div>
+                    <div class="col-sm-5">
+                      <h3 class="word2">Brevity</h3>
+                      <p><b>Meaning: </b>concise and exact use of words in writing or speech.</p>
+                      <div class="wrap">
+                        <button class="button" onclick="play18()">PLAY</button>
+                      </div>
+                    </div>
+                    <div class="col-sm-1"></div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-5">
+                      <h3 class="word1">Foolhardy</h3>
+                      <p><b>Meaning: </b>recklessly bold or rash.</p>
+                      <div class="wrap">
+                        <button class="button" onclick="play19()">PLAY</button>
+                      </div>
+                    </div>
+                    <div class="col-sm-5">
+                      <h3 class="word2">Lucrative</h3>
+                      <p><b>Meaning: </b>producing a great deal of profit.</p>
+                      <div class="wrap">
+                        <button class="button" onclick="play20()">PLAY</button>
+                      </div>
+                    </div>
+                    <div class="col-sm-1"></div>
+                  </div>
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-2"></div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script>
+      var x1 = document.getElementById("a1"); 
+      var x2 = document.getElementById("a2");
+      var x3 = document.getElementById("a3");
+      var x4 = document.getElementById("a4");
+      var x5 = document.getElementById("a5");
+      var x6 = document.getElementById("a6");
+      var x7 = document.getElementById("a7");
+      var x8 = document.getElementById("a8");
+      var x9 = document.getElementById("a9");
+      var x10 = document.getElementById("a10");
+      var x11 = document.getElementById("a11");
+      var x12 = document.getElementById("a12");
+      var x13 = document.getElementById("a13");
+      var x14 = document.getElementById("a14");
+      var x15 = document.getElementById("a15");
+      var x16 = document.getElementById("a16");
+      var x17 = document.getElementById("a17");
+      var x18 = document.getElementById("a18");
+      var x19 = document.getElementById("a19");
+      var x20 = document.getElementById("a20");
+
+      function play1() { 
+        x1.play(); 
+      }  
+
+      function play2() { 
+        x2.play(); 
+      }
+
+      function play3() { 
+        x3.play(); 
+      }
+
+      function play4() { 
+        x4.play(); 
+      }
+
+      function play5() { 
+        x5.play(); 
+      }
+
+      function play6() { 
+        x6.play() 
+      }
+
+      function play7() { 
+        x7.play(); 
+      }
+
+      function play8() { 
+        x8.play(); 
+      }
+
+      function play9() { 
+        x9.play(); 
+      }
+
+      function play10() { 
+        x10.play(); 
+      }
+
+      function play11() { 
+        x11.play(); 
+      }
+
+      function play12() { 
+        x12.play(); 
+      }
+
+      function play13() { 
+        x13.play(); 
+      }
+
+      function play14() { 
+        x14.play(); 
+      }
+
+      function play15() { 
+        x15.play(); 
+      }
+
+      function play16() { 
+        x16.play(); 
+      }
+
+      function play17() { 
+        x17.play(); 
+      }
+
+      function play18() { 
+        x18.play(); 
+      }
+
+      function play19() { 
+        x19.play(); 
+      }
+
+      function play20() { 
+        x20.play(); 
+      }
+    </script>
+  </body>
+</html>
